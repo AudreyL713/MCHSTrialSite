@@ -16,6 +16,28 @@ body {
   font-weight: bold;
 }
 
-.mySlides {
+.pictureSlideshow {
+  width: 500px;
+  height: 250px;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+  margin: auto auto;
+}
+
+.teamPictures {
   display: none;
+  width: 100%;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.aboutUs h1{
+  color: goldenrod;
+  font-family: "Bookman", serif;
+  
+}
+
+.aboutUs p {
+  color: white;
+  font-family: "Bookman", serif;
 }
