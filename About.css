@@ -88,7 +88,13 @@ body {
 }
 
 .aboutUs img {
-  border-radius: 5%;
+  float: right;
+  padding-left: 50px;
+  width: 40%;
+  border-top: 10px solid #2e1503;
+  border-left: 10px solid #2e1503;
+  border-right: 10px solid #65350f;
+  border-bottom: 10px solid #65350f;
 }
 
 .coaches-labels,
