@@ -14,6 +14,7 @@ body {
   font-family: "Bookman", serif;
   font-variant: small-caps;
   font-weight: bold;
+  font-size: 32px;
 }
 
 .pictureSlideshow {
@@ -31,13 +32,71 @@ body {
   font-weight: bold;
 }
 
-.aboutUs h1{
+.aboutMT a {
   color: goldenrod;
+  text-align: center;
+  margin-left: 25%;
   font-family: "Bookman", serif;
-  
+  font-style: italic;
+  font-size: 20px;
 }
 
-.aboutUs p {
+.aboutUs h1,
+.coaches h1 {
+  color: goldenrod;
+  font-family: "Bookman", serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.coaches h2 {
   color: white;
   font-family: "Bookman", serif;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.coaches h3 {
+  color: goldenrod;
+  font-family: "Bookman", serif;
+  font-variant: bold;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+.aboutUs p,
+.coaches p {
+  color: white;
+  font-family: "Bookman", serif;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.aboutUs img {
+  border-radius: 5%;
+}
+
+.coaches-labels,
+.coaches-info {
+  width: 100%;
+  display: table-row;
+}
+
+.coaches-labels div,
+.coaches-info div {
+  border: 2px solid white;
+  display: table-cell;
+  width: 30%;
+}
+
+.coaches-info img {
+  width: 90%;
+  display: block;
+  margin: auto auto;
 }
