@@ -77,26 +77,33 @@ p {
   height: 50px;
 }
 
-.contactform div {
+.contactform {
+  float: right;  
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.contactform form div{
   display: table-row;
-  background-image: linear-gradient(silver, white, silver);
+  padding-left: 20px;
 }
 
-.contactform div label {
+.contactform form div label {
   display: table-cell;
   font-family: "Georgia", serif;
+  font-weight: bold;
   text-align: left;
+  color: silver;
   vertical-align: top;
   padding-bottom: 15px;
   padding-right: 5px;
 }
 
-.contactform div input {
+.contactform form div input {
   display: table-cell;
   font-family: "Georgia", serif;
 }
 
-.contactform div textarea {
+.contactform form div textarea {
   display: table-cell;
   font-family: "Georgia", serif;
   height: 150px;
@@ -104,5 +111,7 @@ p {
 }
 
 .contactform input {
-  color: white;
+  background-image: (#2E1503, #65350F, #2E1503);
+  color: goldenrod;
+  font-family: "Jazz LET", fantasy;
 }
