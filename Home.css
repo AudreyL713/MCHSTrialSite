@@ -76,3 +76,7 @@ p {
   background: #371D10;
   height: 50px;
 }
+
+.container div {
+  padding: 10px;
+}

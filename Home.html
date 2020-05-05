@@ -20,34 +20,40 @@
     </div>
 
     <div class="container">
-      <div class="row">
-        <div class="column">
-          <form action="/action_page.php">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Your name.."
-            />
-            <label for="school">Affiliated School</label>
-            <input
-              type="text"
-              id="school"
-              name="school"
-              placeholder="School name..."
-            />
-            <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Your Message.."
-              style="height: 170px;"
-            ></textarea>
-            <input type="submit" value="Submit" />
-          </form>
+      <form method="post" name="contactus" action="ContactUs.php">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name.." />  
         </div>
-      </div>
+        <div>
+          <label for="school">School</label>
+          <input
+            type="text"
+            id="school"
+            name="school"
+            placeholder="School name..."
+          />  
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@mail.com"
+          />  
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Message.."
+            style="height: 170px;"
+          ></textarea>  
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
     </div>
   </body>
 </html>
