@@ -14,6 +14,7 @@ body {
   font-family: "Bookman", serif;
   font-variant: small-caps;
   font-weight: bold;
+  font-size: 32px;
 }
 
 .pictureSlideshow {
@@ -31,13 +32,88 @@ body {
   font-weight: bold;
 }
 
-.aboutUs h1{
-  color: goldenrod;
-  font-family: "Bookman", serif;
-  
+.recruit {
+  text-align: center;
 }
 
-.aboutUs p {
+.recruit a{
+  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 100px;
+  color: goldenrod;
+  text-align: center;
+  font-family: "Bookman", serif;
+  font-style: italic;
+  font-size: 28px;
+}
+
+.aboutUs h1,
+.coaches h1 {
+  color: goldenrod;
+  font-family: "Bookman", serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.coaches h2 {
   color: white;
   font-family: "Bookman", serif;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.coaches h3 {
+  color: goldenrod;
+  font-family: "Bookman", serif;
+  font-variant: bold;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+.aboutUs p,
+.coaches p {
+  color: white;
+  font-family: "Bookman", serif;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.aboutUs img {
+  float: right;
+  padding-left: 50px;
+  width: 40%;
+  border-top: 10px solid #2e1503;
+  border-left: 10px solid #2e1503;
+  border-right: 10px solid #65350f;
+  border-bottom: 10px solid #65350f;
+}
+
+.coaches-labels,
+.coaches-info {
+  width: 100%;
+  display: table-row;
+}
+
+.coaches-labels div,
+.coaches-info div {
+  border: 2px solid white;
+  display: table-cell;
+  width: 30%;
+}
+
+.coaches-info img {
+  max-width: 200px;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: auto auto;
 }
