@@ -90,6 +90,7 @@ body {
 .aboutUs img {
   float: right;
   padding-left: 50px;
+  max-width: 300px;
   width: 40%;
   border-top: 10px solid #2e1503;
   border-left: 10px solid #2e1503;
