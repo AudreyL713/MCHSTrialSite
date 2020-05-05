@@ -8,13 +8,39 @@ body {
   border-bottom: 5px solid black;
 }
 
+#topbar {
+  display: table;
+  text-align: center;
+}
+
 .MCTrial-header h1 {
   color: goldenrod;
   text-align: center;
   font-family: "Bookman", serif;
   font-variant: small-caps;
   font-weight: bold;
+  padding-left: 0px;
+  display: table-cell;
   font-size: 32px;
+}
+
+#headerleft {
+  float: left;
+  display: table-cell;
+  border-collapse: collapse;
+  margin: 0px;
+  padding-right: 0px;
+  width: 100px;
+  transform: scaleX(-1)
+}
+
+#headerright {
+  float: right;
+  display: table-cell;
+  border-collapse: collapse;
+  margin: 0px;
+  padding-right: 0px;
+  width: 100px;
 }
 
 .MCTrial-header a {
