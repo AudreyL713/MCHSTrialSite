@@ -10,6 +10,7 @@ body {
 
 #topbar {
   display: table;
+  width: 100%;
   text-align: center;
 }
 
@@ -28,9 +29,9 @@ body {
   float: left;
   display: table-cell;
   border-collapse: collapse;
-  margin: 0px;
-  padding-right: 0px;
-  width: 100px;
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 50px;
   transform: scaleX(-1)
 }
 
@@ -38,9 +39,9 @@ body {
   float: right;
   display: table-cell;
   border-collapse: collapse;
-  margin: 0px;
-  padding-right: 0px;
-  width: 100px;
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 50px;
 }
 
 .MCTrial-header a {
