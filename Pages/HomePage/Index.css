@@ -78,6 +78,26 @@ p {
   height: 50px;
 }
 
+#labels {
+  display: table-column;
+  float: right;
+  padding-right: 5px;
+}
+
+.colormode h3 {
+  display: table-row;
+  text-align: center;
+  font-family: "Bookman", serif;
+}
+
+#light {
+  color: black;
+}
+
+#dark {
+  color: white;
+}
+
 .switch {
   position: relative;
   float: right;
@@ -99,7 +119,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: darkslategrey;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -117,11 +137,7 @@ p {
 }
 
 input:checked + .slider {
-  background-color: darkslategrey;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px darkslategrey;
+  background-color: #ccc;
 }
 
 input:checked + .slider:before {
@@ -140,6 +156,7 @@ input:checked + .slider:before {
 }
 
 .contactform {
+  background-color: black;
   float: right;  
   padding-right: 20px;
   padding-top: 20px;
@@ -158,6 +175,7 @@ input:checked + .slider:before {
   vertical-align: top;
   padding-bottom: 15px;
   padding-right: 5px;
+  padding-left: 10px;
 }
 
 .contactform form div input {
@@ -175,6 +193,7 @@ input:checked + .slider:before {
 #submitbutton {
   display: inline-block;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .contactform button {

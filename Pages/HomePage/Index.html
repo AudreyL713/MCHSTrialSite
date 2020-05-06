@@ -6,12 +6,14 @@
   </head>
   <body>
     <div class="colormode">
-      <h3>Light mode</h3>
       <label class="switch">
-        <input type="checkbox">
+        <input type="checkbox" id="toggle" onclick="modeToggle()">
         <span class="slider round"></span>
       </label>
-      <h3>Dark mode</h3>
+      <div id="labels">
+        <h3 id="light">Light mode</h3>
+        <h3 id="dark">Dark mode</h3>  
+      </div>
     </div>
   
     <div>
@@ -65,5 +67,6 @@
         </div>
       </form>
     </div>
+    <script src="Index.js"></script>
   </body>
 </html>
