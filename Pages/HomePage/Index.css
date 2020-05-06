@@ -156,7 +156,8 @@ input:checked + .slider:before {
 }
 
 .contactform {
-  background-color: black;
+  background-image: linear-gradient(#2E1503, #65350F, #2E1503);
+  border: 2px solid goldenrod;
   float: right;  
   padding-right: 20px;
   padding-top: 20px;
@@ -171,7 +172,7 @@ input:checked + .slider:before {
   font-family: "Georgia", serif;
   font-weight: bold;
   text-align: left;
-  color: silver;
+  color: goldenrod;
   vertical-align: top;
   padding-bottom: 15px;
   padding-right: 5px;
