@@ -5,6 +5,17 @@
     <link rel="stylesheet" href="About.css" />
   </head>
   <body>
+    <div class="colormode">
+      <label class="switch">
+        <input type="checkbox" id="toggle" onclick="modeToggle()">
+        <span class="slider round"></span>
+      </label>
+      <div id="labels">
+        <h3 id="light">Light mode</h3>
+        <h3 id="dark">Dark mode</h3>  
+      </div>
+    </div>
+
     <div class="MCTrial-header">
       <h1>About Our Team</h1>
     </div>
@@ -40,7 +51,7 @@
     <div class="aboutUs">
       <h1>We are the MCHS Mock Trial Team!</h1>
       <img id="teamlogo" src="../../Pictures/crflogo233.png" />
-      <p>
+      <p id="teamtext">
         Filler text, this will be words about us later. Filler text, this will
         be words about us later. Filler text, this will be words about us later.
         Filler text, this will be words about us later. Filler text, this will
