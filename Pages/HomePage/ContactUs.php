@@ -1,12 +1,15 @@
 <?php
 
+$to = "audschool21@gmail.com";
+$subject = "Website Form Submission";
+$from = $_POST["email"];
 $name = $_POST["name"];
 $school = $_POST["school"];
-$from = $_POST["email"];
 $msg = $_POST["message"];
+$body = "This message comes from: ".$name." from ".$school.".\n The message is: \n".$msg;
 
+$body = wordwrap($body,70);
+$headers = "From: ".$from;
 
-echo "This message is from";
-echo $name;
-
+mail($to,$subject,$body,$headers);
 ?>
