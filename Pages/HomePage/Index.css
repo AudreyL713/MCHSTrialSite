@@ -111,8 +111,16 @@ p {
   width: 200px;
 }
 
-.contactform input {
-  background-image: (#2E1503, #65350F, #2E1503);
+#submitbutton {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.contactform button {
+  background-image: linear-gradient(#2E1503, #65350F, #2E1503);
+  border: 1px solid goldenrod;
   color: goldenrod;
-  font-family: "Jazz LET", fantasy;
+  font-family: "Georgia", serif;
+  font-size: 15px;
+  font-weight: bold;
 }
