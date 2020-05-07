@@ -14,7 +14,11 @@ body {
   text-align: center;
 }
 
-.MCTrial-header h1 {
+#titles {
+  display: table-column;
+}
+
+#titles h1 {
   color: goldenrod;
   text-align: center;
   font-family: "Bookman", serif;
