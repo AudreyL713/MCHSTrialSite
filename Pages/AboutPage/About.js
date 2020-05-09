@@ -12,15 +12,3 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
-
-function modeToggle() {
-  var checkBox = document.getElementById("toggle");
-  var doc = document.body;
-  if (checkBox.checked == true){
-    document.documentElement.style.setProperty("--default-bg", "white");
-    document.documentElement.style.setProperty("--default-text", "black");
-  } else {
-    document.documentElement.style.setProperty("--default-bg", "black");
-    document.documentElement.style.setProperty("--default-text", "white");
-  }
-}

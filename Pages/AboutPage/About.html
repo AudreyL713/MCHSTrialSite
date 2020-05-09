@@ -4,15 +4,15 @@
     <title>Mira Costa HS Mock Trial: About Us</title>
     <link rel="stylesheet" href="About.css" />
   </head>
-  <body>
+  <body onload="editColorScheme()">
     <div class="colormode">
       <label class="switch">
-        <input type="checkbox" id="toggle" onclick="modeToggle()">
+        <input type="checkbox" id="toggle" onclick="modeToggle()" />
         <span class="slider round"></span>
       </label>
       <div id="labels">
         <h3 id="light">Light mode</h3>
-        <h3 id="dark">Dark mode</h3>  
+        <h3 id="dark">Dark mode</h3>
       </div>
     </div>
 
@@ -131,5 +131,17 @@
       </div>
     </div>
     <script src="About.js"></script>
+    <script src="../Global.js"></script>
+    <script>
+      function editColorScheme() {
+        if (colorScheme) {
+          document.documentElement.style.setProperty("--default-bg", "black");
+          document.documentElement.style.setProperty("--default-text", "white");
+        } else {
+          document.documentElement.style.setProperty("--default-bg", "white");
+          document.documentElement.style.setProperty("--default-text", "black");
+        }
+      }
+    </script>
   </body>
 </html>

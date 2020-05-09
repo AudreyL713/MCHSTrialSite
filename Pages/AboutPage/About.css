@@ -1,13 +1,4 @@
-:root {
-  --default-bg: black;
-  --default-text: white;
-}
-
-body {
-  background: var(--default-bg);
-  padding: 0;
-  margin: 0;
-}
+@import "../Global.css";
 
 .MCTrial-header {
   background-image: linear-gradient(#2e1503, #65350f, #2e1503);

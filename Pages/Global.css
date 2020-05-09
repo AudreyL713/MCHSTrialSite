@@ -1,0 +1,14 @@
+:root {
+  --default-bg: black;
+  --default-text: white;
+}
+
+body {
+  background: var(--default-bg);
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+    color: gold;
+}
