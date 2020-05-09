@@ -1,9 +1,10 @@
 function modeToggle() {
   var checkBox = document.getElementById("toggle");
-  var doc = document.body;
   if (checkBox.checked == true) {
-    doc.style.background = "white";
+    document.documentElement.style.setProperty("--default-bg", "white");
+    document.documentElement.style.setProperty("--default-text", "black");
   } else {
-    doc.style.background = "black";
+    document.documentElement.style.setProperty("--default-bg", "black");
+    document.documentElement.style.setProperty("--default-text", "white");
   }
 }

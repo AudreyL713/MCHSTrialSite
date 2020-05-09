@@ -1,11 +1,19 @@
+:root {
+  --default-bg: black;
+  --default-text: white;
+}
+
 body {
-  background: black;
+  background: var(--default-bg);
+  padding: 0;
+  margin: 0;
 }
 
 .MCTrial-header {
   background-image: linear-gradient(#2E1503, #65350F, #2E1503);
   overflow: hidden;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid var(--default-bg);
+  width: 100%;
 }
 
 #topbar {
