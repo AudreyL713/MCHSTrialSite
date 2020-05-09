@@ -2,49 +2,60 @@ body {
   background: black;
 }
 
-.MCTrial-header {
-  background-image: linear-gradient(#2E1503, #65350F, #2E1503);
+#header-top {
+  background-image: linear-gradient(#2E1503, #65350F);
   overflow: hidden;
-  border-bottom: 5px solid black;
 }
 
-#topbar {
-  display: table;
+#row {
+  display: table-row;
   width: 100%;
   text-align: center;
 }
 
-.MCTrial-header h1 {
+#header-top h1, #header-middle h1 {
   color: goldenrod;
   text-align: center;
   font-family: "Bookman", serif;
   font-variant: small-caps;
   font-weight: bold;
-  padding-bottom: 10px;
   display: table-cell;
+  border: 5px solid white;
   font-size: 32px;
 }
 
-#headerleft {
-  float: left;
+#left-icon {
+  border: 5px solid white;
+  float: right;
   display: table-cell;
-  border-collapse: collapse;
   padding-right: 20px;
   padding-top: 20px;
   width: 50px;
   transform: scaleX(-1)
 }
 
-#headerright {
-  float: right;
+#right-icon {
+  border: 5px solid white;
+  float: left;
   display: table-cell;
-  border-collapse: collapse;
   padding-right: 20px;
   padding-top: 20px;
   width: 50px;
 }
 
-.MCTrial-header a {
+#header-middle {
+  background-image: linear-gradient(#65350F, #2E1503);
+  overflow: hidden;
+  border-bottom: 5px solid black;
+}
+
+#header-bottom {
+  background-image: linear-gradient(#2E1503, #65350F, #2E1503);
+  overflow: hidden;
+  border-bottom: 5px solid black;
+}
+
+#header-bottom a {
   float: left;
   color: goldenrod;
   text-align: center;
@@ -55,7 +66,7 @@ body {
   font-size: 20px;
 }
 
-.MCTrial-header a:hover {
+#header-bottom a:hover {
   background-color: black;
   color: gold;
 }
