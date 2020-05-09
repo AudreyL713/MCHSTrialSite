@@ -15,14 +15,12 @@ function carousel() {
 
 function modeToggle() {
   var checkBox = document.getElementById("toggle");
-  var teamText = document.getElementById("teamtext");
-  var heading = document.getElementsByTagName("h2");
   var doc = document.body;
   if (checkBox.checked == true){
-    doc.style.background = "white";
-    teamText.style.color = "black";
-    heading.style.color = "black";
+    document.documentElement.style.setProperty("--default-bg", "white");
+    document.documentElement.style.setProperty("--default-text", "black");
   } else {
-      doc.style.background = "black";
+    document.documentElement.style.setProperty("--default-bg", "black");
+    document.documentElement.style.setProperty("--default-text", "white");
   }
 }

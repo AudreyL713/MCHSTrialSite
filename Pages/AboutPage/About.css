@@ -1,12 +1,19 @@
+:root {
+  --default-bg: black;
+  --default-text: white;
+}
+
 body {
-  background: black;
+  background: var(--default-bg);
+  padding: 0;
+  margin: 0;
 }
 
 .MCTrial-header {
   background-image: linear-gradient(#2e1503, #65350f, #2e1503);
   overflow: hidden;
   width: 100%;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid var(--default-bg);
 }
 
 .MCTrial-header h1 {
@@ -60,7 +67,7 @@ body {
 }
 
 .coaches h2 {
-  color: white;
+  color: var(--default-text);
   font-family: "Bookman", serif;
   font-style: italic;
   font-size: 16px;
@@ -81,7 +88,7 @@ body {
 
 .aboutUs p,
 .coaches p {
-  color: white;
+  color: var(--default-text);
   font-family: "Bookman", serif;
   font-size: 16px;
   margin-left: 5px;
@@ -107,7 +114,7 @@ body {
 
 .coaches-labels div,
 .coaches-info div {
-  border: 2px solid white;
+  border: 2px solid var(--default-text);
   display: table-cell;
   width: 30%;
 }
