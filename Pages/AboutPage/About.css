@@ -117,15 +117,3 @@
   display: block;
   margin: auto auto;
 }
-
-#labels {
-  display: table-column;
-  float: right;
-  padding-right: 5px;
-}
-
-.colormode h3 {
-  display: table-row;
-  text-align: center;
-  font-family: "Bookman", serif;
-}
