@@ -52,6 +52,8 @@
 .aboutUs h1,
 .coaches h1 {
   color: goldenrod;
+  padding-left: 5px;
+  text-decoration: underline overline dotted goldenrod;
   font-family: "Bookman", serif;
   font-weight: bold;
   font-size: 28px;
