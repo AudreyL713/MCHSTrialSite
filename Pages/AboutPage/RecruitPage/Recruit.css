@@ -1,9 +1,15 @@
 @import "../../Global.css";
 
 .MCTrial-header {
-  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
   overflow: hidden;
   width: 100%;
+}
+
+#topbar {
+  background-image: linear-gradient(#2e1503, #65350f);
+  display: table;
+  width: 100%;
+  text-align: center;
 }
 
 .MCTrial-header h1 {
@@ -12,7 +18,79 @@
   font-family: "Bookman", serif;
   font-variant: small-caps;
   font-weight: bold;
+  padding-bottom: 10px;
+  display: table-cell;
   font-size: 32px;
+}
+
+#headerleft {
+  float: left;
+  display: table-cell;
+  border-collapse: collapse;
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 50px;
+  transform: scaleX(-1);
+}
+
+#headerright {
+  float: right;
+  display: table-cell;
+  border-collapse: collapse;
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 50px;
+}
+
+#divider {
+  background-color: #65350f;
+  margin: 0px;
+  padding-bottom: 8px;
+}
+
+#divider hr {
+  background-color: goldenrod;
+  color: goldenrod;
+  text-align: center;
+  border-width: 0px;
+  height: 2px;
+  width: 50%;
+}
+
+#subbar {
+  background-image: linear-gradient(#65350f, #2e1503);
+  border-bottom: 5px solid var(--default-bg);
+  padding-bottom: 10px;
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+
+#subbar h1 {
+  font-variant: normal;
+  font-style: italic;
+  font-size: 28px;
+}
+
+#linkbar {
+  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
+  border-bottom: 5px solid var(--default-bg);
+}
+
+.MCTrial-header a {
+  float: left;
+  color: goldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Bookman", serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.MCTrial-header a:hover {
+  background-color: black;
+  color: gold;
 }
 
 h2 {
