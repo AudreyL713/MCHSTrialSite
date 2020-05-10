@@ -1,18 +1,1 @@
-body {
-  background: black;
-}
-
-.MCTrial-header {
-  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
-  overflow: hidden;
-  border-bottom: 5px solid black;
-}
-
-.MCTrial-header h1 {
-  color: goldenrod;
-  text-align: center;
-  font-family: "Bookman", serif;
-  font-variant: small-caps;
-  font-weight: bold;
-  font-size: 32px;
-}
+@import "../Global.css";
