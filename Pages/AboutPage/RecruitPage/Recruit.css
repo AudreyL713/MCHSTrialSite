@@ -1,0 +1,13 @@
+@import "../../Global.css";
+
+.bullet {
+  margin-left: 30px;
+}
+
+#importantpoint {
+  text-decoration: underline solid var(--default-text);
+}
+
+.linkbutton {
+  padding-top: 10px;
+}

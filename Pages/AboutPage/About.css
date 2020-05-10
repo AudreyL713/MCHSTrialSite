@@ -1,21 +1,4 @@
-body {
-  background: black;
-}
-
-.MCTrial-header {
-  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
-  overflow: hidden;
-  border-bottom: 5px solid black;
-}
-
-.MCTrial-header h1 {
-  color: goldenrod;
-  text-align: center;
-  font-family: "Bookman", serif;
-  font-variant: small-caps;
-  font-weight: bold;
-  font-size: 32px;
-}
+@import "../Global.css";
 
 .pictureSlideshow {
   width: 500px;
@@ -32,34 +15,8 @@ body {
   font-weight: bold;
 }
 
-.recruit {
-  text-align: center;
-}
-
-.recruit a{
-  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
-  border: none;
-  padding: 10px 20px;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 100px;
-  color: goldenrod;
-  text-align: center;
-  font-family: "Bookman", serif;
-  font-style: italic;
-  font-size: 28px;
-}
-
-.aboutUs h1,
-.coaches h1 {
-  color: goldenrod;
-  font-family: "Bookman", serif;
-  font-weight: bold;
-  font-size: 28px;
-}
-
-.coaches h2 {
-  color: white;
+.coaches h3 {
+  color: var(--default-text);
   font-family: "Bookman", serif;
   font-style: italic;
   font-size: 16px;
@@ -68,7 +25,7 @@ body {
   padding: 0;
 }
 
-.coaches h3 {
+.coaches h4 {
   color: goldenrod;
   font-family: "Bookman", serif;
   font-variant: bold;
@@ -76,15 +33,6 @@ body {
   text-align: center;
   margin: 0;
   padding: 5px;
-}
-
-.aboutUs p,
-.coaches p {
-  color: white;
-  font-family: "Bookman", serif;
-  font-size: 16px;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 .aboutUs img {
@@ -98,6 +46,15 @@ body {
   border-bottom: 10px solid #65350f;
 }
 
+.coaches {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.coaches h2 {
+  padding-left: 0px;
+}
+
 .coaches-labels,
 .coaches-info {
   width: 100%;
@@ -106,7 +63,7 @@ body {
 
 .coaches-labels div,
 .coaches-info div {
-  border: 2px solid white;
+  border: 2px solid var(--default-text);
   display: table-cell;
   width: 30%;
 }
