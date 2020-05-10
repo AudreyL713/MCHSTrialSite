@@ -12,11 +12,6 @@
   text-align: center;
 }
 
-#linkbar {
-  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
-  border-bottom: 5px solid var(--default-bg);
-}
-
 .MCTrial-header h1 {
   color: goldenrod;
   text-align: center;
@@ -26,6 +21,25 @@
   padding-bottom: 10px;
   display: table-cell;
   font-size: 32px;
+}
+
+#headerleft {
+  float: left;
+  display: table-cell;
+  border-collapse: collapse;
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 50px;
+  transform: scaleX(-1);
+}
+
+#headerright {
+  float: right;
+  display: table-cell;
+  border-collapse: collapse;
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 50px;
 }
 
 #divider {
@@ -58,23 +72,9 @@
   font-size: 28px;
 }
 
-#headerleft {
-  float: left;
-  display: table-cell;
-  border-collapse: collapse;
-  padding-right: 20px;
-  padding-top: 20px;
-  width: 50px;
-  transform: scaleX(-1);
-}
-
-#headerright {
-  float: right;
-  display: table-cell;
-  border-collapse: collapse;
-  padding-right: 20px;
-  padding-top: 20px;
-  width: 50px;
+#linkbar {
+  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
+  border-bottom: 5px solid var(--default-bg);
 }
 
 .MCTrial-header a {
