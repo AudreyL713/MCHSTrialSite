@@ -24,10 +24,11 @@ body {
   padding-right: 5px;
 }
 
-.colormode h3 {
+.colormode h6 {
   display: table-row;
   text-align: center;
   font-family: "Bookman", serif;
+  font-size: 16px;
 }
 
 .switch {
@@ -178,4 +179,43 @@ input:checked + .slider:before {
 .MCTrial-header a:hover {
   background-color: black;
   color: gold;
+}
+
+h2 {
+  color: goldenrod;
+  padding-left: 10px;
+  padding-top: 25px;
+  line-height: 0px;
+  text-decoration: underline overline dotted goldenrod;
+  font-family: "Bookman", serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+p {
+  color: var(--default-text);
+  font-family: "Bookman", serif;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.linkbutton {
+  text-align: center;
+}
+
+.linkbutton a{
+  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 100px;
+  color: goldenrod;
+  text-align: center;
+  font-family: "Bookman", serif;
+  font-style: italic;
+  font-size: 28px;
 }
