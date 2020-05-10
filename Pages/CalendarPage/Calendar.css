@@ -1,82 +1,34 @@
-body {
-  background: black;
-}
+@import "../Global.css";
 
-#header-top {
-  background-image: linear-gradient(#2E1503, #65350F);
+.MCTrial-header {
+  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
   overflow: hidden;
-}
-
-#row {
-  display: table-row;
   width: 100%;
-  text-align: center;
+  border-bottom: 5px solid var(--default-bg);
 }
 
-#header-top h1, #header-middle h1 {
+.MCTrial-header h1 {
   color: goldenrod;
   text-align: center;
   font-family: "Bookman", serif;
   font-variant: small-caps;
   font-weight: bold;
-  display: table-cell;
-  border: 5px solid white;
   font-size: 32px;
 }
 
-#left-icon {
-  border: 5px solid white;
-  float: right;
-  display: table-cell;
-  padding-right: 20px;
-  padding-top: 20px;
-  width: 50px;
-  transform: scaleX(-1)
-}
-
-#right-icon {
-  border: 5px solid white;
-  float: left;
-  display: table-cell;
-  padding-right: 20px;
-  padding-top: 20px;
-  width: 50px;
-}
-
-#header-middle {
-  background-image: linear-gradient(#65350F, #2E1503);
-  overflow: hidden;
-  border-bottom: 5px solid black;
-}
-
-#header-bottom {
-  background-image: linear-gradient(#2E1503, #65350F, #2E1503);
-  overflow: hidden;
-  border-bottom: 5px solid black;
-}
-
-#header-bottom a {
-  float: left;
-  color: goldenrod;
+.colormode h3 {
+  display: table-row;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
   font-family: "Bookman", serif;
-  font-style: italic;
-  font-size: 20px;
-}
-
-#header-bottom a:hover {
-  background-color: black;
-  color: gold;
 }
 
 .calendar {
-    text-align: center;
-    padding-top: 20px;
+  text-align: center;
+  padding-top: 20px;
 }
 .calendar iframe {
   border: 0;
-  width: 800px;
+  color: black;
+  width: 90%;
   height: 600px;
 }

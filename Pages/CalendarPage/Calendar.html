@@ -3,24 +3,20 @@
   <title>Mira Costa HS Mock Trial: Calendar</title>
   <link rel="stylesheet" href="Calendar.css" />
 </head>
-<body>
-  <div>
-    <div id="header-top">
-      <div class="row">
-        <img id="left-icon" src="../../Pictures/gavel.PNG" />
-        <h1>Mira Costa High School Mock Trial</h1>
-        <img id="right-icon" src="../../Pictures/gavel.PNG" />
-      </div>
+<body onload="editColorScheme()">
+  <div class="colormode">
+    <label class="switch">
+      <input type="checkbox" id="toggle" onclick="modeToggle()" />
+      <span class="slider round"></span>
+    </label>
+    <div id="labels">
+      <h3 id="light">Light mode</h3>
+      <h3 id="dark">Dark mode</h3>
     </div>
-    <div id="header-middle">
-      <h1>Event Calendar</h1>
-    </div>
-    <div id="header-bottom">
-      <a href="Index.html">Home</a>
-      <a href="../AboutPage/About.html">About</a>
-      <a href="Team.html">Team</a>
-      <a href="../CalendarPage/Calendar.html">Calendar</a>
-    </div>
+  </div>
+
+  <div class="MCTrial-header">
+    <h1>Calendar</h1>
   </div>
 
   <div class="calendar">
@@ -30,4 +26,5 @@
       scrolling="yes"
     ></iframe>
   </div>
+  <script src="../Global.js"></script>
 </body>

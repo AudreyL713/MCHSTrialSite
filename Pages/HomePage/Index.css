@@ -1,7 +1,7 @@
 @import "../Global.css";
 
 .MCTrial-header {
-  background-image: linear-gradient(#2E1503, #65350F, #2E1503);
+  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
   overflow: hidden;
   border-bottom: 5px solid var(--default-bg);
   width: 100%;
@@ -13,11 +13,7 @@
   text-align: center;
 }
 
-#titles {
-  display: table-column;
-}
-
-#titles h1 {
+.MCTrial-header h1 {
   color: goldenrod;
   text-align: center;
   font-family: "Bookman", serif;
@@ -35,7 +31,7 @@
   padding-right: 20px;
   padding-top: 20px;
   width: 50px;
-  transform: scaleX(-1)
+  transform: scaleX(-1);
 }
 
 #headerright {
@@ -64,43 +60,31 @@
 }
 
 p {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color: goldenrod;
-    background: #371D10;
-    text-align: center;
-    font-family: "Georgia", serif;
-    padding-top: 0px;
-    padding-bottom: 100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: goldenrod;
+  background: #371d10;
+  text-align: center;
+  font-family: "Georgia", serif;
+  padding-top: 0px;
+  padding-bottom: 100px;
 }
 
 #introBar {
   width: 300px;
-  background: #371D10;
+  background: #371d10;
   height: 50px;
 }
 
-#labels {
-  display: table-column;
-  float: right;
-  padding-right: 5px;
-}
-
-.colormode h3 {
-  display: table-row;
-  text-align: center;
-  font-family: "Bookman", serif;
-}
-
 .contactform {
-  background-image: linear-gradient(#2E1503, #65350F, #2E1503);
+  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
   border: 2px solid goldenrod;
-  float: right;  
+  float: right;
   padding-right: 20px;
   padding-top: 20px;
 }
-.contactform form div{
+.contactform form div {
   display: table-row;
   padding-left: 20px;
 }
@@ -136,7 +120,7 @@ p {
 }
 
 .contactform button {
-  background-image: linear-gradient(#2E1503, #65350F, #2E1503);
+  background-image: linear-gradient(#2e1503, #65350f, #2e1503);
   border: 1px solid goldenrod;
   color: goldenrod;
   font-family: "Georgia", serif;
