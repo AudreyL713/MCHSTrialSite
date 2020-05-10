@@ -1,108 +1,136 @@
 <!DOCTYPE html>
-<head>
-  <title>Mira Costa HS Mock Trial: About Us</title>
-  <link rel="stylesheet" href="About.css" />
-</head>
-<body>
-  <div class="MCTrial-header">
-    <h1>About Our Team</h1>
-  </div>
-
-  <div class="pictureSlideshow">
-    <img
-      class="teamPictures"
-      src="../../Pictures/TeamPictures/Fewer Mandatory Practices.PNG"
-    />
-    <img class="teamPictures" src="../../Pictures/TeamPictures/Friday Practices.PNG" />
-    <img class="teamPictures" src="../../Pictures/TeamPictures/Less Rigorous Audition.PNG" />
-    <img class="teamPictures" src="../../Pictures/TeamPictures/More Outside Input.PNG" />
-    <img
-      class="teamPictures"
-      src="../../Pictures/TeamPictures/More Specialized Practices.PNG"
-    />
-    <img class="teamPictures" src="../../Pictures/TeamPictures/Returning Interest.PNG" />
-    <img class="teamPictures" src="../../Pictures/TeamPictures/Capture.PNG" />
-  </div>
-
-  <div class="aboutUs">
-    <h1>We are the MCHS Mock Trial Team!</h1>
-    <img id="teamlogo" src="../../Pictures/crflogo233.png" />
-    <p>
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later.
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later.
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later.
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later.
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later.
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later.
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later.
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later.
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later.
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later. Filler text, this will be words about us later.
-      Filler text, this will be words about us later. Filler text, this will be
-      words about us later.
-    </p>
-  </div>
-
-  <div class="recruit">
-    <a href="RecruitPage/Recruit.html">Interested? Click to learn more about Mock Trial!</a>
-  </div>
-
-  <div class="coaches">
-    <h1>Our Coaches</h1>
-    <div class="coaches-labels">
-      <div>
-        <h2>Attorney Coach</h2>
-        <h3>Geoff Lewin</h3>
-      </div>
-      <div>
-        <h2>Attorney Coach</h2>
-        <h3>Jeanie Lewin</h3>
-      </div>
-      <div>
-        <h2>Teacher Coach</h2>
-        <h3>Alan Zeoli</h3>
+<html>
+  <head>
+    <title>Mira Costa HS Mock Trial: About Us</title>
+    <link rel="stylesheet" href="About.css" />
+  </head>
+  <body onload="editColorScheme()">
+    <div class="colormode">
+      <label class="switch">
+        <input type="checkbox" id="toggle" onclick="modeToggle()" />
+        <span class="slider round"></span>
+      </label>
+      <div id="labels">
+        <h3 id="light">Light mode</h3>
+        <h3 id="dark">Dark mode</h3>
       </div>
     </div>
-    <div class="coaches-info">
-      <div>
-        <img id="teamlogo" src="../../Pictures/crflogo233.png" />
-        <p>
-          Filler text, this will be a blurb about Mr. Lewin later. Filler text,
-          this will be a blurb about Mr. Lewin later. Filler text, this will be
-          a blurb about Mr. Lewin later. Filler text, this will be a blurb about
-          Mr. Lewin later.
-        </p>
+
+    <div class="MCTrial-header">
+      <h1>About Our Team</h1>
+    </div>
+
+    <div class="pictureSlideshow">
+      <img
+        class="teamPictures"
+        src="../../Pictures/TeamPictures/Fewer Mandatory Practices.PNG"
+      />
+      <img
+        class="teamPictures"
+        src="../../Pictures/TeamPictures/Friday Practices.PNG"
+      />
+      <img
+        class="teamPictures"
+        src="../../Pictures/TeamPictures/Less Rigorous Audition.PNG"
+      />
+      <img
+        class="teamPictures"
+        src="../../Pictures/TeamPictures/More Outside Input.PNG"
+      />
+      <img
+        class="teamPictures"
+        src="../../Pictures/TeamPictures/More Specialized Practices.PNG"
+      />
+      <img
+        class="teamPictures"
+        src="../../Pictures/TeamPictures/Returning Interest.PNG"
+      />
+      <img class="teamPictures" src="../../Pictures/TeamPictures/Capture.PNG" />
+    </div>
+
+    <div class="aboutUs">
+      <h1>We are the MCHS Mock Trial Team!</h1>
+      <img id="teamlogo" src="../../Pictures/crflogo233.png" />
+      <p id="teamtext">
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later. Filler text, this will
+        be words about us later. Filler text, this will be words about us later.
+        Filler text, this will be words about us later.
+      </p>
+    </div>
+
+    <div class="recruit">
+      <a href="Recruit.html"
+        >Interested? Click to learn more about Mock Trial!</a
+      >
+    </div>
+
+    <div class="coaches">
+      <h1>Our Coaches</h1>
+      <div class="coaches-labels">
+        <div>
+          <h2>Attorney Coach</h2>
+          <h3>Geoff Lewin</h3>
+        </div>
+        <div>
+          <h2>Attorney Coach</h2>
+          <h3>Jeanie Lewin</h3>
+        </div>
+        <div>
+          <h2>Teacher Coach</h2>
+          <h3>Alan Zeoli</h3>
+        </div>
       </div>
-      <div>
-        <img id="teamlogo" src="../../Pictures/crflogo233.png" />
-        <p>
-          Filler text, this will be a blurb about Mrs. Lewin later. Filler text,
-          this will be a blurb about Mrs. Lewin later. Filler text, this will be
-          a blurb about Mrs. Lewin later. Filler text, this will be a blurb
-          about Mrs. Lewin later.
-        </p>
-      </div>
-      <div>
-        <img id="teamlogo" src="../../Pictures/crflogo233.png" />
-        <p>
-          Filler text, this will be a blurb about Mr. Zeoli later. Filler text,
-          this will be a blurb about Mr. Zeoli later. Filler text, this will be
-          a blurb about Mr. Zeoli later. Filler text, this will be a blurb about
-          Mr. Zeoli later.
-        </p>
+      <div class="coaches-info">
+        <div>
+          <img id="teamlogo" src="../../Pictures/crflogo233.png" />
+          <p>
+            Filler text, this will be a blurb about Mr. Lewin later. Filler
+            text, this will be a blurb about Mr. Lewin later. Filler text, this
+            will be a blurb about Mr. Lewin later. Filler text, this will be a
+            blurb about Mr. Lewin later.
+          </p>
+        </div>
+        <div>
+          <img id="teamlogo" src="../../Pictures/crflogo233.png" />
+          <p>
+            Filler text, this will be a blurb about Mrs. Lewin later. Filler
+            text, this will be a blurb about Mrs. Lewin later. Filler text, this
+            will be a blurb about Mrs. Lewin later. Filler text, this will be a
+            blurb about Mrs. Lewin later.
+          </p>
+        </div>
+        <div>
+          <img id="teamlogo" src="../../Pictures/crflogo233.png" />
+          <p>
+            Filler text, this will be a blurb about Mr. Zeoli later. Filler
+            text, this will be a blurb about Mr. Zeoli later. Filler text, this
+            will be a blurb about Mr. Zeoli later. Filler text, this will be a
+            blurb about Mr. Zeoli later.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  <script src="About.js"></script>
-</body>
+    <script src="../Global.js"></script>
+    <script src="About.js"></script>
+  </body>
+</html>
