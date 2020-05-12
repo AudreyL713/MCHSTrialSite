@@ -1,7 +1,7 @@
 <?php
 $pass = '$2y$10$nDm/3ebP/LNBZl4LZuhl3.ROFxu/sZMR0lLm.Svhspco.u/CkpyKW';
 
-echo session_status();
+session_start();
 
 if(password_verify($_POST["password"],$pass)) {
     $_SESSION['access'] = "IMYUNJL";

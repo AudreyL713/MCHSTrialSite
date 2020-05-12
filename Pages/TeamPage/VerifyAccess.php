@@ -1,8 +1,6 @@
 <?php
 if (session_status() == PHP_SESSION_NONE) {
-    echo "starting session";
     session_start();
-    echo session_status();
 }
 
 $access_hash = '$2y$10$yB8FrpmKqOzF6drJlL0S2OOvrCA/8R4bGWpnS0MWXsmGlXN7Wba66';
