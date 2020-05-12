@@ -1,0 +1,33 @@
+@import "../Global.css";
+
+p {
+    padding-top: 20px;
+}
+
+.passwordvalidation form {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.passwordvalidation label {
+    color: var(--default-text);
+    font-family: "Bookman", serif;
+    font-size: 16px; 
+}
+
+.passwordvalidation input {
+    font-family: "Bookman", serif;
+}
+
+#submitbutton {
+    display: inline-block;
+    padding-top: 10px;
+}
+  
+  .passwordvalidation button {
+    background-image: linear-gradient(silver, white, silver);
+    border: 1px solid darkslategrey;
+    color: black;
+    font-family: "Bookman", serif;
+    font-weight: bold;
+  }

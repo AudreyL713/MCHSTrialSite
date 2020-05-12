@@ -1,4 +1,4 @@
-var colorScheme = sessionStorage.getItem("colorScheme"); // true is dark mode, false is light mode
+var colorScheme = sessionStorage.getItem("colorScheme");
 
 function modeToggle() {
   var checkBox = document.getElementById("toggle");
