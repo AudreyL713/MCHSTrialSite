@@ -5,7 +5,7 @@ session_start();
 
 if(password_verify($_POST["password"],$pass)) {
     $_SESSION['access'] = "IMYUNJL";
-    $hidden_page = file_get_contents("ProtectedPage/Protected.html");
+    $hidden_page = file_get_contents("Protected.html");
     echo $hidden_page;
 } else {
     $default_page = file_get_contents("Team.html");

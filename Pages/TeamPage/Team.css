@@ -1,33 +1,58 @@
 @import "../Global.css";
 
 p {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .passwordvalidation form {
-    padding-top: 10px;
-    padding-left: 30px;
+  padding-top: 10px;
+  padding-left: 30px;
 }
 
 .passwordvalidation label {
-    color: var(--default-text);
-    font-family: "Bookman", serif;
-    font-size: 16px; 
+  color: var(--default-text);
+  font-family: "Bookman", serif;
+  font-size: 16px;
 }
 
 .passwordvalidation input {
-    font-family: "Bookman", serif;
+  font-family: "Bookman", serif;
 }
 
 #submitbutton {
-    display: inline-block;
-    padding-top: 10px;
+  display: inline-block;
+  padding-top: 10px;
 }
-  
-  .passwordvalidation button {
-    background-image: linear-gradient(silver, white, silver);
-    border: 1px solid darkslategrey;
-    color: black;
-    font-family: "Bookman", serif;
-    font-weight: bold;
-  }
+
+.passwordvalidation button {
+  background-image: linear-gradient(silver, white, silver);
+  border: 1px solid darkslategrey;
+  color: black;
+  font-family: "Bookman", serif;
+  font-weight: bold;
+}
+
+.resources a {
+  color: var(--default-text);
+  text-decoration: none;
+  font-family: "Bookman", serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.resources a:hover {
+  color: gold;
+}
+
+.calendar {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.calendar iframe {
+  border: 0;
+  width: 90%;
+  height: 600px;
+}
