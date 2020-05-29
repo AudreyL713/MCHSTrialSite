@@ -181,6 +181,44 @@ input:checked + .slider:before {
   color: gold;
 }
 
+.MCTrial-header button {
+  float: left;
+  color: goldenrod;
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Bookman", serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.MCTrial-header button:hover {
+  background-color: black;
+  color: gold;
+  cursor: pointer;
+}
+
+.navHidden {
+  text-align: center;
+  display: none;
+  position: absolute;
+  left: 90px;
+  bottom: 90px;
+}
+
+.navHidden a {
+  background: linear-gradient(#2e1503, #65350f, #2e1503);
+  border: solid 1px goldenrod;
+  width: 100%;
+}
+
+.navHidden a:hover {
+  background: black;
+}
+
 h2 {
   color: goldenrod;
   padding-left: 10px;
