@@ -205,8 +205,8 @@ input:checked + .slider:before {
   text-align: center;
   display: none;
   position: absolute;
-  left: 90px;
-  bottom: 90px;
+  left: 80px;
+  top: 242px;
 }
 
 .navHidden a {

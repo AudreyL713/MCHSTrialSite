@@ -5,6 +5,10 @@
   border-bottom: 5px solid var(--default-bg);
 }
 
+.navHidden {
+  top: 165px;
+}
+
 .contactform {
   background-image: linear-gradient(#2e1503, #65350f, #2e1503);
   border: 2px solid goldenrod;
