@@ -212,6 +212,7 @@ input:checked + .slider:before {
 .navHidden a {
   background: linear-gradient(#2e1503, #65350f, #2e1503);
   border: solid 1px goldenrod;
+  border-top: solid 2px black;
   width: 100%;
 }
 
