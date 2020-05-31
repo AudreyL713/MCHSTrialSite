@@ -9,6 +9,21 @@
   top: 165px;
 }
 
+.pictureSlideshow {
+  width: 500px;
+  height: 250px;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+  margin: auto auto;
+}
+
+.teamPictures {
+  display: none;
+  width: 100%;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
 .contactform {
   background-image: linear-gradient(#2e1503, #65350f, #2e1503);
   border: 2px solid goldenrod;
