@@ -33,3 +33,13 @@ function editColorScheme() {
     document.documentElement.style.setProperty("--default-text", "white");
   }
 }
+
+function displayHidden() {
+  var hidden = document.getElementsByClassName("navHidden")[0];
+
+  if (hidden.style.display == "none" || hidden.style.display == "") {
+    hidden.style.display = "block";
+  } else {
+    hidden.style.display = "none";
+  }
+}

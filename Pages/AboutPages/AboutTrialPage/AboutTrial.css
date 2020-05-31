@@ -1,0 +1,44 @@
+@import "../../Global.css";
+.bullet {
+  margin-left: 30px;
+}
+
+#importantpoint {
+  text-decoration: underline solid var(--default-text);
+}
+
+.linkbutton {
+  padding-top: 10px;
+}
+
+.trialinfo h3 {
+  color: goldenrod;
+  font-family: "Bookman", serif;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  padding: 0;
+}
+
+.trialpart p {
+    margin-left: 30px;
+}
+
+.trialpart h4 {
+    color: var(--default-text);
+    font-family: "Bookman", serif;
+    font-style: italic;
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 30px;
+  }
+
+.trialinfo a {
+  color: var(--default-text);
+  font-family: "Bookman", serif;
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 60px;
+  margin-right: 10px;
+}
