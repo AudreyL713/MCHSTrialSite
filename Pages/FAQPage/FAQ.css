@@ -1,1 +1,70 @@
 @import "../Global.css";
+
+.section {
+  width: 92%;
+  margin: auto;
+}
+
+.section h4 {
+  font-size: 18px;
+  padding: 15px 0px 15px 10px;
+}
+
+.collapsible {
+    background-color: rgb(170, 230, 170);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0px 20px 0px 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+.collapsible:hover {
+    background-color: var(--default-bg);
+    border-bottom: solid 3px rgb(18, 136, 18);
+  }
+
+  .active {
+    background-color: var(--default-bg);
+    border-bottom: solid 1px rgb(18, 136, 18);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: var(--default-bg);
+    border-bottom: solid 3px rgb(18, 136, 18);
+  }
+
+  .question {
+    width: 80vw;
+  }
+
+  .question, .plus {
+    color: rgb(18, 136, 18);
+    font-size: 30px;
+    padding: 0px;
+    margin: 10px 0px 10px 0px;
+    line-height: 60px;
+    font-weight: bold;
+    float: left;
+  }
+
+  .plus {
+    transition: transform 0.15s cubic-bezier(0, 0, 0, 0);
+    float: right;
+    font-size: 50px;
+    padding-right: 10px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .bulletPoint {
+    padding-left: 30px;
+  }
