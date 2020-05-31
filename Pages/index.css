@@ -24,16 +24,21 @@
   font-weight: bold;
 }
 
+.form {
+  display: table;
+  width: 100%;
+}
+
+.cell {
+  display: table-cell;
+  width: 50%;
+}
+
 .contactform {
   background-image: linear-gradient(#2e1503, #65350f, #2e1503);
-  border: 2px solid goldenrod;
-  float: right;
+  width: 100%;
   padding-right: 20px;
   padding-top: 20px;
-}
-.contactform form div {
-  display: table-row;
-  padding-left: 20px;
 }
 
 .contactform form div label {
